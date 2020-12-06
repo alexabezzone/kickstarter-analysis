@@ -12,13 +12,13 @@ The Kickstarter Challenge analysis project was aimed to help our client Louise u
 
 In order to analyze the data for play outcomes based on launch date, we first calculated the year from the "Date Created Conversion" column within the Kickstarter_Challenge Excel sheet using the `YEAR()` function. After, a pivot table was created and filtered by "Parent Category" and "Years." The rows of the pivot table were the "Goal" dollar amount of the plays and the columns were "Outcomes" of the plays based on their goal amount. After, a line chart was created to visualize the relationship between the play outcomes and the date at which it was launched. Please see the chart below. 
 
-![Theater_Outcomes_vs_Launch.png](/Users/alexabezzone/Desktop/Data_Bootcamp/Excel_Module 1/Resources/Theater_Outcomes_vs_Launch.png).
+![Theater_Outcomes_vs_Launch.png(/Users/alexabezzone/Desktop/Data_Bootcamp/Excel_Module_1/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis Of Outcomes Based on Goals 
 
 A new sheet was created in Kickstarter_Challenge to analyze outcomes of plays based on their monetary goals. To populate the goal amount based on the "Number Successful," "Number Failed," and "Number Canceled" plays, the `COUNTIFS()` function was used. After the goal amount based on outcomes column was created, the `SUM()` function was used to calculate the sum of all the projects for each goal amount. The percentages of the outcomes by the goal amount was also calculated. After, a line chart was created to visualize the relationship between outcomes of the play based on the goal amount. Please see the chart below.
 
-![Outcomes_Based_On_Goals](/Users/alexabezzone/Desktop/Data_Bootcamp/Excel_Module_1/Resources/Outcomes_Based_On_Goals.png).
+![Outcomes_Based_On_Goals](/Users/alexabezzone/Desktop/Data_Bootcamp/Excel_Module_1/Resources/Outcomes_Based_On_Goals.png)
 
 ### Challenges of Analysis
 
